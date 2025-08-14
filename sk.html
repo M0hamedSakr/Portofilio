@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills - Mohamed Mahmoud Sakr</title>
+    <link rel="stylesheet" href="sk.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <div class="nav-content">
+                <a href="home.html" class="logo">
+                    <div class="logo-icon">MS</div>
+                    <span class="logo-text">Mohamed Sakr</span>
+                </a>
+                <div class="nav-desktop">
+                    <a href="home.html" class="nav-link">Home</a>
+                    <a href="about.html" class="nav-link">About</a>
+                    <a href="proj.html" class="nav-link">Projects</a>
+                    <a href="sk.html" class="nav-link active">Skills</a>
+                    <a href="con.html" class="nav-link">Contact</a>
+                </div>
+                <div class="nav-actions">
+                    <div class="contact-icons">
+                        <a href="https://www.linkedin.com/in/mohamed-sakr-15b674279" target="_blank" class="contact-icon">
+                            <i data-lucide="linkedin"></i>
+                        </a>
+                        <a href="tel:01009252592" class="contact-icon">
+                            <i data-lucide="phone"></i>
+                        </a>
+                    </div>
+                    <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
+                        <i data-lucide="menu" class="menu-icon"></i>
+                        <i data-lucide="x" class="close-icon hidden"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="mobile-nav hidden" id="mobileNav">
+                <div class="mobile-nav-content">
+                    <a href="home.html" class="mobile-nav-link">Home</a>
+                    <a href="about.html" class="mobile-nav-link">About</a>
+                    <a href="proj.html" class="mobile-nav-link">Projects</a>
+                    <a href="sk.html" class="mobile-nav-link active">Skills</a>
+                    <a href="con.html" class="mobile-nav-link">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-icon">
+                        <i data-lucide="zap"></i>
+                    </div>
+                    <h1 class="hero-title">Technical Skills</h1>
+                    <p class="hero-description">
+                        A comprehensive overview of my technical expertise, from programming languages 
+                        to specialized tools and emerging technologies.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats Section -->
+        <section class="stats">
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <i data-lucide="code" class="stat-icon"></i>
+                        <h3 class="stat-number">15+</h3>
+                        <p class="stat-label">Technical Skills</p>
+                        <p class="stat-subtext">Programming to AI/ML</p>
+                    </div>
+                    <div class="stat-card">
+                        <i data-lucide="layers" class="stat-icon"></i>
+                        <h3 class="stat-number">6</h3>
+                        <p class="stat-label">Categories</p>
+                        <p class="stat-subtext">Areas of expertise</p>
+                    </div>
+                    <div class="stat-card">
+                        <i data-lucide="tools" class="stat-icon"></i>
+                        <h3 class="stat-number">25+</h3>
+                        <p class="stat-label">Technologies</p>
+                        <p class="stat-subtext">Tools and platforms</p>
+                    </div>
+                    <div class="stat-card">
+                        <i data-lucide="trending-up" class="stat-icon"></i>
+                        <h3 class="stat-number">5+</h3>
+                        <p class="stat-label">Years</p>
+                        <p class="stat-subtext">Learning experience</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Professional Skills -->
+        <section class="professional-skills">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Professional Skills</h2>
+                    <p class="section-description">Core competencies that drive success</p>
+                </div>
+                <div class="professional-grid">
+                    <div class="professional-card">
+                        <div class="professional-icon">
+                            <i data-lucide="target"></i>
+                        </div>
+                        <h3 class="professional-title">Project Management</h3>
+                        <div class="skill-progress">
+                            <div class="progress-bar">
+                                <div class="progress-fill" data-progress="88"></div>
+                            </div>
+                            <span class="progress-value">88%</span>
+                        </div>
+                    </div>
+                    <div class="professional-card">
+                        <div class="professional-icon">
+                            <i data-lucide="star"></i>
+                        </div>
+                        <h3 class="professional-title">Problem Solving</h3>
+                        <div class="skill-progress">
+                            <div class="progress-bar">
+                                <div class="progress-fill" data-progress="95"></div>
+                            </div>
+                            <span class="progress-value">95%</span>
+                        </div>
+                    </div>
+                    <div class="professional-card">
+                        <div class="professional-icon">
+                            <i data-lucide="zap"></i>
+                        </div>
+                        <h3 class="professional-title">Innovation</h3>
+                        <div class="skill-progress">
+                            <div class="progress-bar">
+                                <div class="progress-fill" data-progress="90"></div>
+                            </div>
+                            <span class="progress-value">90%</span>
+                        </div>
+                    </div>
+                    <div class="professional-card">
+                        <div class="professional-icon">
+                            <i data-lucide="users"></i>
+                        </div>
+                        <h3 class="professional-title">Team Collaboration</h3>
+                        <div class="skill-progress">
+                            <div class="progress-bar">
+                                <div class="progress-fill" data-progress="85"></div>
+                            </div>
+                            <span class="progress-value">85%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Skills Categories -->
+        <section class="technical-skills">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Technical Expertise</h2>
+                    <p class="section-description">Detailed breakdown of technical skills and proficiency levels</p>
+                </div>
+
+                <div class="skills-categories">
+                    <!-- Programming Languages -->
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <div class="category-icon programming">
+                                <i data-lucide="code-2"></i>
+                            </div>
+                            <div class="category-info">
+                                <h3 class="category-title">Programming Languages</h3>
+                                <p class="category-description">Advanced proficiency in multiple programming languages</p>
+                            </div>
+                            <span class="skill-count">7 skills</span>
+                        </div>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <h4 class="skill-name">C++</h4>
+                                    <span class="skill-level">95%</span>
+                                </div>
+                                <div class="skill-progress">
+                                    <div class="progress-bar">
+                                        <div class="progress-fill" data-progress="95"></div>
+                                    </div>
+                                </div>
+                                <p class="skill-description">Advanced algorithms & competitive programming</p>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <h4 class="skill-name">Python</h4>
+                                    <span class="skill-level">90%</span>
+                                </div>
+                                <div class="skill-progress">
+                                    <div class="progress-bar">
+                                        <div class="progress-fill" data-progress="90"></div>
+                                    </div>
+                                </div>
+                                <p class="skill-description">Data analysis, AI/ML, and automation</p>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <h4 class="skill-name">C#</h4>
+                                    <span class="skill-level">85%</span>
+                                </div>
+                                <div class="skill-progress">
+                                    <div class="progress-bar">
+                                        <div class="progress-fill" data-progress="85"></div>
+                                    </div>
+                                </div>
+                                <p class="skill-description">Windows applications and .NET development</p>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <h4 class="skill-name">JavaScript</h4>
+                                    <span class="skill-level">80%</span>
+                                </div>
+                                <div class="skill-progress">
+                                    <div class="progress-bar">
+                                        <div class="progress-fill" data-progress="80"></div>
+                                    </div>
+                                </div>
+                                <p class="skill-description">Web development and interactive applications</p>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <h4 class="skill-name">HTML5</h4>
+                                    <span class="skill-level">90%</span>
+                                </div>
+                                <div class="skill-progress">
+                                    <div class="progress-bar">
+                                        <div class="progress-fill" data-progress="90"></div>
+                                    </div>
+                                </div>
+                                <p class="skill-description">Modern web markup and semantics</p>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <h4 class="skill-name">CSS</h4>
+                                    <span class="skill-level">85%</span>
+                                </div>
+                                <div class="skill-progress">
+                                    <div class="progress-bar">
+                                        <div class="progress-fill" data-progress="85"></div>
+                                    </div>
+                                </div>
+                                <p class="skill-description">Responsive design and animations</p>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <h4 class="skill-name">SQL</h4>
+                                    <span class="skill-level">80%</span>
+                                </div>
+                                <div class="skill-progress">
+                                    <div class="progress-bar">
+                                        <div class="progress-fill" data-progress="80"></div>
+                                    </div>
+                                </div>
+                                <p class="skill-description">Database design and optimization</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- AI & Machine Learning -->
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <div class="category-icon ai">
+                                <i data-lucide="brain"></i>
+                            </div>
+                            <div class="category-info">
+                                <h3 class="category-title">AI & Machine Learning</h3>
+                                <p class="category-description">Advanced AI/ML techniques and data analysis</p>
+                            </div>
+                            <span class="skill-count">5 skills</span>
+                        </div>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <h4 class="skill-name">Data Analysis</h4>
+                                    <span class="skill-level">90%</span>
+                                </div>
+                                <div class="skill-progress">
+                                    <div class="progress-bar">
+                                        <div class="progress-fill" data-progress="90"></div>
+                                    </div>
+                                </div>
+                                <p class="skill-description">Statistical analysis and insights</p>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <h4 class="skill-name">Machine Learning</h4>
+                                    <span class="skill-level">85%</span>
+                                </div>
+                                <div class="skill-progress">
+                                    <div class="progress-bar">
+                                        <div class="progress-fill" data-progress="85"></div>
+                                    </div>
+                                </div>
+                                <p class="skill-description">Model development and training</p>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <h4 class="skill-name">Artificial Intelligence</h4>
+                                    <span class="skill-level">80%</span>
+                                </div>
+                                <div class="skill-progress">
+                                    <div class="progress-bar">
+                                        <div class="progress-fill" data-progress="80"></div>
+                                    </div>
+                                </div>
+                                <p class="skill-description">AI system design and implementation</p>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <h4 class="skill-name">Algorithms</h4>
+                                    <span class="skill-level">95%</span>
+                                </div>
+                                <div class="skill-progress">
+                                    <div class="progress-bar">
+                                        <div class="progress-fill" data-progress="95"></div>
+                                    </div>
+                                </div>
+                                <p class="skill-description">Algorithmic thinking and optimization</p>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <h4 class="skill-name">Pattern Recognition</h4>
+                                    <span class="skill-level">85%</span>
+                                </div>
+                                <div class="skill-progress">
+                                    <div class="progress-bar">
+                                        <div class="progress-fill" data-progress="85"></div>
+                                    </div>
+                                </div>
+                                <p class="skill-description">Computer vision and data patterns</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- IoT & Electronics -->
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <div class="category-icon iot">
+                                <i data-lucide="cpu"></i>
+                            </div>
+                            <div class="category-info">
+                                <h3 class="category-title">IoT & Electronics</h3>
+                                <p class="category-description">Internet of Things and embedded systems</p>
+                            </div>
+                            <span class="skill-count">5 skills</span>
+                        </div>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <h4 class="skill-name">Arduino</h4>
+                                    <span class="skill-level">90%</span>
+                                </div>
+                                <div class="skill-progress">
+                                    <div class="progress-bar">
+                                        <div class="progress-fill" data-progress="90"></div>
+                                    </div>
+                                </div>
+                                <p class="skill-description">Microcontroller programming and circuits</p>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <h4 class="skill-name">IoT Development</h4>
+                                    <span class="skill-level">85%</span>
+                                </div>
+                                <div class="skill-progress">
+                                    <div class="progress-bar">
+                                        <div class="progress-fill" data-progress="85"></div>
+                                    </div>
+                                </div>
+                                <p class="skill-description">Connected device systems</p>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <h4 class="skill-name">Sensor Integration</h4>
+                                    <span class="skill-level">88%</span>
+                                </div>
+                                <div class="skill-progress">
+                                    <div class="progress-bar">
+                                        <div class="progress-fill" data-progress="88"></div>
+                                    </div>
+                                </div>
+                                <p class="skill-description">Hardware sensor implementation</p>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <h4 class="skill-name">Embedded Systems</h4>
+                                    <span class="skill-level">82%</span>
+                                </div>
+                                <div class="skill-progress">
+                                    <div class="progress-bar">
+                                        <div class="progress-fill" data-progress="82"></div>
+                                    </div>
+                                </div>
+                                <p class="skill-description">Low-level system programming</p>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <h4 class="skill-name">Circuit Design</h4>
+                                    <span class="skill-level">80%</span>
+                                </div>
+                                <div class="skill-progress">
+                                    <div class="progress-bar">
+                                        <div class="progress-fill" data-progress="80"></div>
+                                    </div>
+                                </div>
+                                <p class="skill-description">Electronic circuit development</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Software & Tools -->
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <div class="category-icon tools">
+                                <i data-lucide="monitor"></i>
+                            </div>
+                            <div class="category-info">
+                                <h3 class="category-title">Software & Tools</h3>
+                                <p class="category-description">Professional software and development tools</p>
+                            </div>
+                            <span class="skill-count">5 skills</span>
+                        </div>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <h4 class="skill-name">MATLAB</h4>
+                                    <span class="skill-level">85%</span>
+                                </div>
+                                <div class="skill-progress">
+                                    <div class="progress-bar">
+                                        <div class="progress-fill" data-progress="85"></div>
+                                    </div>
+                                </div>
+                                <p class="skill-description">Mathematical computing and analysis</p>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <h4 class="skill-name">Microsoft Office</h4>
+                                    <span class="skill-level">90%</span>
+                                </div>
+                                <div class="skill-progress">
+                                    <div class="progress-bar">
+                                        <div class="progress-fill" data-progress="90"></div>
+                                    </div>
+                                </div>
+                                <p class="skill-description">Professional productivity suite</p>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <h4 class="skill-name">Autodesk Fusion</h4>
+                                    <span class="skill-level">88%</span>
+                                </div>
+                                <div class="skill-progress">
+                                    <div class="progress-bar">
+                                        <div class="progress-fill" data-progress="88"></div>
+                                    </div>
+                                </div>
+                                <p class="skill-description">3D CAD design and modeling</p>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <h4 class="skill-name">Windows Applications</h4>
+                                    <span class="skill-level">85%</span>
+                                </div>
+                                <div class="skill-progress">
+                                    <div class="progress-bar">
+                                        <div class="progress-fill" data-progress="85"></div>
+                                    </div>
+                                </div>
+                                <p class="skill-description">Desktop application development</p>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <h4 class="skill-name">CNC Programming</h4>
+                                    <span class="skill-level">75%</span>
+                                </div>
+                                <div class="skill-progress">
+                                    <div class="progress-bar">
+                                        <div class="progress-fill" data-progress="75"></div>
+                                    </div>
+                                </div>
+                                <p class="skill-description">Computer-controlled machining</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Security & Networking -->
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <div class="category-icon security">
+                                <i data-lucide="shield"></i>
+                            </div>
+                            <div class="category-info">
+                                <h3 class="category-title">Security & Networking</h3>
+                                <p class="category-description">Cybersecurity and network infrastructure</p>
+                            </div>
+                            <span class="skill-count">6 skills</span>
+                        </div>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <h4 class="skill-name">Cybersecurity</h4>
+                                    <span class="skill-level">80%</span>
+                                </div>
+                                <div class="skill-progress">
+                                    <div class="progress-bar">
+                                        <div class="progress-fill" data-progress="80"></div>
+                                    </div>
+                                </div>
+                                <p class="skill-description">Security protocols and practices</p>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <h4 class="skill-name">Fortinet</h4>
+                                    <span class="skill-level">75%</span>
+                                </div>
+                                <div class="skill-progress">
+                                    <div class="progress-bar">
+                                        <div class="progress-fill" data-progress="75"></div>
+                                    </div>
+                                </div>
+                                <p class="skill-description">Network security solutions</p>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <h4 class="skill-name">Sophos</h4>
+                                    <span class="skill-level">75%</span>
+                                </div>
+                                <div class="skill-progress">
+                                    <div class="progress-bar">
+                                        <div class="progress-fill" data-progress="75"></div>
+                                    </div>
+                                </div>
+                                <p class="skill-description">Endpoint protection systems</p>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <h4 class="skill-name">Network Administration</h4>
+                                    <span class="skill-level">80%</span>
+                                </div>
+                                <div class="skill-progress">
+                                    <div class="progress-bar">
+                                        <div class="progress-fill" data-progress="80"></div>
+                                    </div>
+                                </div>
+                                <p class="skill-description">DNS, DHCP, and access points</p>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <h4 class="skill-name">CCTV Systems</h4>
+                                    <span class="skill-level">85%</span>
+                                </div>
+                                <div class="skill-progress">
+                                    <div class="progress-bar">
+                                        <div class="progress-fill" data-progress="85"></div>
+                                    </div>
+                                </div>
+                                <p class="skill-description">Surveillance system setup</p>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <h4 class="skill-name">Fingerprinting</h4>
+                                    <span class="skill-level">78%</span>
+                                </div>
+                                <div class="skill-progress">
+                                    <div class="progress-bar">
+                                        <div class="progress-fill" data-progress="78"></div>
+                                    </div>
+                                </div>
+                                <p class="skill-description">Biometric security systems</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Design & Manufacturing -->
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <div class="category-icon design">
+                                <i data-lucide="wrench"></i>
+                            </div>
+                            <div class="category-info">
+                                <h3 class="category-title">Design & Manufacturing</h3>
+                                <p class="category-description">3D design and digital fabrication</p>
+                            </div>
+                            <span class="skill-count">5 skills</span>
+                        </div>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <h4 class="skill-name">3D Design</h4>
+                                    <span class="skill-level">88%</span>
+                                </div>
+                                <div class="skill-progress">
+                                    <div class="progress-bar">
+                                        <div class="progress-fill" data-progress="88"></div>
+                                    </div>
+                                </div>
+                                <p class="skill-description">CAD modeling and prototyping</p>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <h4 class="skill-name">Digital Fabrication</h4>
+                                    <span class="skill-level">85%</span>
+                                </div>
+                                <div class="skill-progress">
+                                    <div class="progress-bar">
+                                        <div class="progress-fill" data-progress="85"></div>
+                                    </div>
+                                </div>
+                                <p class="skill-description">Additive manufacturing processes</p>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <h4 class="skill-name">CNC Machining</h4>
+                                    <span class="skill-level">80%</span>
+                                </div>
+                                <div class="skill-progress">
+                                    <div class="progress-bar">
+                                        <div class="progress-fill" data-progress="80"></div>
+                                    </div>
+                                </div>
+                                <p class="skill-description">Computer-controlled manufacturing</p>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <h4 class="skill-name">Product Design</h4>
+                                    <span class="skill-level">82%</span>
+                                </div>
+                                <div class="skill-progress">
+                                    <div class="progress-bar">
+                                        <div class="progress-fill" data-progress="82"></div>
+                                    </div>
+                                </div>
+                                <p class="skill-description">End-to-end product development</p>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <h4 class="skill-name">Prototyping</h4>
+                                    <span class="skill-level">85%</span>
+                                </div>
+                                <div class="skill-progress">
+                                    <div class="progress-bar">
+                                        <div class="progress-fill" data-progress="85"></div>
+                                    </div>
+                                </div>
+                                <p class="skill-description">Rapid prototype development</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta">
+            <div class="container">
+                <div class="cta-content">
+                    <h2 class="cta-title">Ready to Leverage These Skills?</h2>
+                    <p class="cta-description">
+                        Let's discuss how these technical capabilities can bring value to your next project.
+                    </p>
+                    <div class="cta-buttons">
+                        <a href="proj.html" class="btn btn-primary">
+                            See Skills in Action
+                            <i data-lucide="chevron-right"></i>
+                        </a>
+                        <a href="con.html" class="btn btn-outline">
+                            Discuss a Project
+                            <i data-lucide="chevron-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <script src="sk.js"></script>
+</body>
+</html>

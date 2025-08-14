@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohamed Mahmoud Sakr - Software Engineer & AI Enthusiast</title>
+    <link rel="stylesheet" href="home.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/lucide@latest/dist/umd/lucide.js">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <div class="nav-content">
+                <!-- Logo -->
+                <a href="home.html" class="logo">
+                    <div class="logo-icon">MS</div>
+                    <span class="logo-text">Mohamed Sakr</span>
+                </a>
+
+                <!-- Desktop Navigation -->
+                <div class="nav-desktop">
+                    <a href="home.html" class="nav-link active">Home</a>
+                    <a href="about.html" class="nav-link">About</a>
+                    <a href="proj.html" class="nav-link">Projects</a>
+                    <a href="sk.html" class="nav-link">Skills</a>
+                    <a href="con.html" class="nav-link">Contact</a>
+                </div>
+
+                <!-- Contact Info & Menu Button -->
+                <div class="nav-actions">
+                    <div class="contact-icons">
+                        <a href="https://www.linkedin.com/in/mohamed-sakr-15b674279" target="_blank" class="contact-icon">
+                            <i data-lucide="linkedin"></i>
+                        </a>
+                        <a href="tel:01009252592" class="contact-icon">
+                            <i data-lucide="phone"></i>
+                        </a>
+                    </div>
+                    
+                    <!-- Mobile menu button -->
+                    <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
+                        <i data-lucide="menu" class="menu-icon"></i>
+                        <i data-lucide="x" class="close-icon hidden"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Mobile Navigation -->
+            <div class="mobile-nav hidden" id="mobileNav">
+                <div class="mobile-nav-content">
+                    <a href="home.html" class="mobile-nav-link active">Home</a>
+                    <a href="about.html" class="mobile-nav-link">About</a>
+                    <a href="proj.html" class="mobile-nav-link">Projects</a>
+                    <a href="sk.html" class="mobile-nav-link">Skills</a>
+                    <a href="con.html" class="mobile-nav-link">Contact</a>
+                    <div class="mobile-contact">
+                        <a href="https://www.linkedin.com/in/mohamed-sakr-15b674279" target="_blank" class="contact-icon">
+                            <i data-lucide="linkedin"></i>
+                        </a>
+                        <a href="tel:01009252592" class="contact-icon">
+                            <i data-lucide="phone"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-grid">
+                    <!-- Left Column - Hero Content -->
+                    <div class="hero-content animate-slide-in">
+                        <div class="hero-text">
+                            <div class="status-badge animate-fade-in">
+                                <div class="status-dot"></div>
+                                Available for Innovative Projects
+                            </div>
+                            
+                            <h1 class="hero-title animate-slide-up">
+                                <span>Mohamed</span>
+                                <br>
+                                <span>Mahmoud</span>
+                                <br>
+                                <span class="hero-name">Sakr</span>
+                            </h1>
+                            
+                            <div class="hero-description animate-slide-up-delayed">
+                                <h2 class="hero-subtitle">Software Engineer & AI Enthusiast</h2>
+                                <p class="hero-paragraph">
+                                    Specialized in <strong>algorithms</strong>, <strong>IoT solutions</strong>, and <strong>intelligent systems</strong>. 
+                                    Expert in C++, Python, AI/ML, cybersecurity, and digital fabrication. 
+                                    Passionate about creating innovative technology that solves real-world problems.
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <!-- Contact Information -->
+                        <div class="hero-contact animate-fade-in-delayed">
+                            <a href="tel:01009252592" class="contact-item">
+                                <i data-lucide="phone"></i>
+                                <span>01009252592</span>
+                            </a>
+                            <a href="https://www.linkedin.com/in/mohamed-sakr-15b674279" target="_blank" class="contact-item">
+                                <i data-lucide="linkedin"></i>
+                                <span>LinkedIn Profile</span>
+                            </a>
+                        </div>
+                        
+                        <!-- CTA Buttons -->
+                        <div class="hero-cta animate-fade-in-delayed">
+                            <a href="proj.html" class="btn btn-primary">
+                                Explore Projects
+                                <i data-lucide="arrow-right"></i>
+                            </a>
+                            <a href="con.html" class="btn btn-outline">
+                                <i data-lucide="mail"></i>
+                                Get In Touch
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Right Column - Skills Showcase -->
+                    <div class="skills-showcase animate-slide-in-right">
+                        <div class="skills-card">
+                            <h3 class="skills-title">Core Expertise</h3>
+                            
+                            <div class="skills-grid">
+                                <div class="skill-item animate-scale-in" data-color="blue">
+                                    <i data-lucide="code-2"></i>
+                                    <h4>C++</h4>
+                                    <p>Advanced algorithms & competitive programming</p>
+                                </div>
+                                <div class="skill-item animate-scale-in" data-color="green">
+                                    <i data-lucide="code-2"></i>
+                                    <h4>Python</h4>
+                                    <p>AI/ML, data analysis & automation</p>
+                                </div>
+                                <div class="skill-item animate-scale-in" data-color="purple">
+                                    <i data-lucide="brain"></i>
+                                    <h4>AI & Machine Learning</h4>
+                                    <p>Data analysis, pattern recognition</p>
+                                </div>
+                                <div class="skill-item animate-scale-in" data-color="orange">
+                                    <i data-lucide="cpu"></i>
+                                    <h4>IoT & Arduino</h4>
+                                    <p>Embedded systems & sensor integration</p>
+                                </div>
+                                <div class="skill-item animate-scale-in" data-color="red">
+                                    <i data-lucide="shield"></i>
+                                    <h4>Cybersecurity</h4>
+                                    <p>Fortinet, Sophos, network security</p>
+                                </div>
+                                <div class="skill-item animate-scale-in" data-color="cyan">
+                                    <i data-lucide="wrench"></i>
+                                    <h4>CAD & 3D Design</h4>
+                                    <p>Autodesk Fusion, digital fabrication</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats Section -->
+        <section class="stats">
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="stat-card animate-scale-up">
+                        <i data-lucide="zap" class="stat-icon"></i>
+                        <h3 class="stat-number">15+</h3>
+                        <p class="stat-label">Technical Skills</p>
+                        <p class="stat-subtext">Programming to AI/ML</p>
+                    </div>
+                    <div class="stat-card animate-scale-up">
+                        <i data-lucide="award" class="stat-icon"></i>
+                        <h3 class="stat-number">10+</h3>
+                        <p class="stat-label">Certifications</p>
+                        <p class="stat-subtext">From top platforms</p>
+                    </div>
+                    <div class="stat-card animate-scale-up">
+                        <i data-lucide="lightbulb" class="stat-icon"></i>
+                        <h3 class="stat-number">6</h3>
+                        <p class="stat-label">Major Projects</p>
+                        <p class="stat-subtext">IoT to AI systems</p>
+                    </div>
+                    <div class="stat-card animate-scale-up">
+                        <i data-lucide="target" class="stat-icon"></i>
+                        <h3 class="stat-number">4+</h3>
+                        <p class="stat-label">Specializations</p>
+                        <p class="stat-subtext">Cross-domain expertise</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Expertise Overview -->
+        <section class="expertise">
+            <div class="container">
+                <div class="section-header animate-fade-in">
+                    <h2 class="section-title">Technical Expertise</h2>
+                    <p class="section-description">
+                        Comprehensive skills across programming, AI/ML, IoT, cybersecurity, and digital fabrication
+                    </p>
+                </div>
+
+                <div class="expertise-grid">
+                    <div class="expertise-card animate-slide-up">
+                        <div class="expertise-header">
+                            <div class="expertise-icon">
+                                <i data-lucide="code-2"></i>
+                            </div>
+                            <h3 class="expertise-title">Programming</h3>
+                        </div>
+                        <div class="expertise-skills">
+                            <span class="skill-tag">C++</span>
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">C#</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">HTML5</span>
+                            <span class="skill-tag">CSS</span>
+                        </div>
+                    </div>
+
+                    <div class="expertise-card animate-slide-up">
+                        <div class="expertise-header">
+                            <div class="expertise-icon">
+                                <i data-lucide="brain"></i>
+                            </div>
+                            <h3 class="expertise-title">AI & Data</h3>
+                        </div>
+                        <div class="expertise-skills">
+                            <span class="skill-tag">Machine Learning</span>
+                            <span class="skill-tag">Data Analysis</span>
+                            <span class="skill-tag">Algorithms</span>
+                            <span class="skill-tag">Pattern Recognition</span>
+                        </div>
+                    </div>
+
+                    <div class="expertise-card animate-slide-up">
+                        <div class="expertise-header">
+                            <div class="expertise-icon">
+                                <i data-lucide="cpu"></i>
+                            </div>
+                            <h3 class="expertise-title">IoT & Hardware</h3>
+                        </div>
+                        <div class="expertise-skills">
+                            <span class="skill-tag">Arduino</span>
+                            <span class="skill-tag">IoT Development</span>
+                            <span class="skill-tag">Embedded Systems</span>
+                            <span class="skill-tag">Sensors</span>
+                        </div>
+                    </div>
+
+                    <div class="expertise-card animate-slide-up">
+                        <div class="expertise-header">
+                            <div class="expertise-icon">
+                                <i data-lucide="shield"></i>
+                            </div>
+                            <h3 class="expertise-title">Security</h3>
+                        </div>
+                        <div class="expertise-skills">
+                            <span class="skill-tag">Fortinet</span>
+                            <span class="skill-tag">Sophos</span>
+                            <span class="skill-tag">Network Security</span>
+                            <span class="skill-tag">CCTV</span>
+                            <span class="skill-tag">Fingerprinting</span>
+                        </div>
+                    </div>
+
+                    <div class="expertise-card animate-slide-up">
+                        <div class="expertise-header">
+                            <div class="expertise-icon">
+                                <i data-lucide="settings"></i>
+                            </div>
+                            <h3 class="expertise-title">Tools & Software</h3>
+                        </div>
+                        <div class="expertise-skills">
+                            <span class="skill-tag">MATLAB</span>
+                            <span class="skill-tag">Microsoft Office</span>
+                            <span class="skill-tag">Autodesk Fusion</span>
+                            <span class="skill-tag">CNC</span>
+                        </div>
+                    </div>
+
+                    <div class="expertise-card animate-slide-up">
+                        <div class="expertise-header">
+                            <div class="expertise-icon">
+                                <i data-lucide="globe"></i>
+                            </div>
+                            <h3 class="expertise-title">Web & Mobile</h3>
+                        </div>
+                        <div class="expertise-skills">
+                            <span class="skill-tag">HTML5</span>
+                            <span class="skill-tag">CSS</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">Mobile Development</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section-cta animate-fade-in">
+                    <a href="sk.html" class="btn btn-outline">
+                        Explore All Skills
+                        <i data-lucide="chevron-right"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Projects Section -->
+        <section class="projects">
+            <div class="container">
+                <div class="section-header animate-fade-in">
+                    <h2 class="section-title">Featured Projects</h2>
+                    <p class="section-description">
+                        Innovative solutions spanning robotics, AI, IoT, and mobile applications
+                    </p>
+                </div>
+
+                <div class="projects-grid">
+                    <div class="project-card animate-scale-up">
+                        <div class="project-header">
+                            <div class="project-badges">
+                                <span class="status-badge success">Completed</span>
+                                <span class="complexity-badge">Advanced</span>
+                            </div>
+                            <h3 class="project-title">Cleaner Robot</h3>
+                        </div>
+                        <div class="project-content">
+                            <p class="project-description">
+                                Autonomous cleaning robot with advanced navigation, AI-powered path planning, and smart obstacle avoidance
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Arduino</span>
+                                <span class="tech-tag">AI/ML</span>
+                                <span class="tech-tag">IoT</span>
+                                <span class="tech-tag">Computer Vision</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card animate-scale-up">
+                        <div class="project-header">
+                            <div class="project-badges">
+                                <span class="status-badge success">Completed</span>
+                                <span class="complexity-badge">Intermediate</span>
+                            </div>
+                            <h3 class="project-title">QR Code Generator</h3>
+                        </div>
+                        <div class="project-content">
+                            <p class="project-description">
+                                Dynamic QR code generation system with analytics, batch processing, and real-time tracking capabilities
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Web APIs</span>
+                                <span class="tech-tag">Database</span>
+                                <span class="tech-tag">Analytics</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card animate-scale-up">
+                        <div class="project-header">
+                            <div class="project-badges">
+                                <span class="status-badge success">Completed</span>
+                                <span class="complexity-badge">Advanced</span>
+                            </div>
+                            <h3 class="project-title">Mobile Car</h3>
+                        </div>
+                        <div class="project-content">
+                            <p class="project-description">
+                                Remote-controlled vehicle with live video streaming, sensor monitoring, and autonomous navigation modes
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">IoT</span>
+                                <span class="tech-tag">Arduino</span>
+                                <span class="tech-tag">Mobile App</span>
+                                <span class="tech-tag">Wireless</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card animate-scale-up">
+                        <div class="project-header">
+                            <div class="project-badges">
+                                <span class="status-badge progress">In Development</span>
+                                <span class="complexity-badge expert">Expert</span>
+                            </div>
+                            <h3 class="project-title">Health Monitoring System</h3>
+                        </div>
+                        <div class="project-content">
+                            <p class="project-description">
+                                Comprehensive health tracking platform with real-time vital signs monitoring and AI-powered insights
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">IoT</span>
+                                <span class="tech-tag">AI/ML</span>
+                                <span class="tech-tag">Mobile</span>
+                                <span class="tech-tag">Cloud</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card animate-scale-up">
+                        <div class="project-header">
+                            <div class="project-badges">
+                                <span class="status-badge progress">In Development</span>
+                                <span class="complexity-badge expert">Expert</span>
+                            </div>
+                            <h3 class="project-title">TIAGO Assistant</h3>
+                        </div>
+                        <div class="project-content">
+                            <p class="project-description">
+                                Intelligent virtual assistant with natural language processing and smart home integration
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">AI/ML</span>
+                                <span class="tech-tag">NLP</span>
+                                <span class="tech-tag">IoT</span>
+                                <span class="tech-tag">Voice Recognition</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card animate-scale-up">
+                        <div class="project-header">
+                            <div class="project-badges">
+                                <span class="status-badge progress">In Development</span>
+                                <span class="complexity-badge">Advanced</span>
+                            </div>
+                            <h3 class="project-title">Smart Wheelchair</h3>
+                        </div>
+                        <div class="project-content">
+                            <p class="project-description">
+                                Intelligent mobility assistance system with autonomous navigation and safety monitoring
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Arduino</span>
+                                <span class="tech-tag">AI/ML</span>
+                                <span class="tech-tag">Sensors</span>
+                                <span class="tech-tag">Mobile</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section-cta animate-fade-in">
+                    <a href="proj.html" class="btn btn-outline">
+                        View All Projects
+                        <i data-lucide="chevron-right"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Recent Certifications -->
+        <section class="certifications">
+            <div class="container">
+                <div class="section-header animate-fade-in">
+                    <h2 class="section-title">Recent Certifications</h2>
+                    <p class="section-description">
+                        Continuous learning and professional development across multiple domains
+                    </p>
+                </div>
+
+                <div class="certifications-list">
+                    <div class="certification-item animate-slide-in">
+                        <div class="certification-content">
+                            <div class="certification-info">
+                                <i data-lucide="award" class="certification-icon"></i>
+                                <div>
+                                    <h3 class="certification-name">ICPC C++ Problem Solving</h3>
+                                    <p class="certification-issuer">International Collegiate Programming Contest</p>
+                                </div>
+                            </div>
+                            <span class="certification-year">2023</span>
+                        </div>
+                    </div>
+
+                    <div class="certification-item animate-slide-in">
+                        <div class="certification-content">
+                            <div class="certification-info">
+                                <i data-lucide="award" class="certification-icon"></i>
+                                <div>
+                                    <h3 class="certification-name">Python Programming</h3>
+                                    <p class="certification-issuer">Maharatech</p>
+                                </div>
+                            </div>
+                            <span class="certification-year">2023</span>
+                        </div>
+                    </div>
+
+                    <div class="certification-item animate-slide-in">
+                        <div class="certification-content">
+                            <div class="certification-info">
+                                <i data-lucide="award" class="certification-icon"></i>
+                                <div>
+                                    <h3 class="certification-name">AI Data Analysis</h3>
+                                    <p class="certification-issuer">Sprint</p>
+                                </div>
+                            </div>
+                            <span class="certification-year">2023</span>
+                        </div>
+                    </div>
+
+                    <div class="certification-item animate-slide-in">
+                        <div class="certification-content">
+                            <div class="certification-info">
+                                <i data-lucide="award" class="certification-icon"></i>
+                                <div>
+                                    <h3 class="certification-name">Digital Fabrication</h3>
+                                    <p class="certification-issuer">Creativa</p>
+                                </div>
+                            </div>
+                            <span class="certification-year">2023</span>
+                        </div>
+                    </div>
+
+                    <div class="certification-item animate-slide-in">
+                        <div class="certification-content">
+                            <div class="certification-info">
+                                <i data-lucide="award" class="certification-icon"></i>
+                                <div>
+                                    <h3 class="certification-name">Python OOP</h3>
+                                    <p class="certification-issuer">HackerRank</p>
+                                </div>
+                            </div>
+                            <span class="certification-year">2023</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section-cta animate-fade-in">
+                    <a href="about.html" class="btn btn-outline">
+                        View All Certifications
+                        <i data-lucide="chevron-right"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Enhanced CTA Section -->
+        <section class="cta">
+            <div class="container">
+                <div class="cta-content animate-fade-in">
+                    <h2 class="cta-title">Ready to Build the Future Together?</h2>
+                    <p class="cta-description">
+                        Let's transform your innovative ideas into reality with cutting-edge technology, 
+                        advanced algorithms, and intelligent solutions.
+                    </p>
+                    
+                    <div class="cta-buttons">
+                        <a href="con.html" class="btn btn-primary cta-btn">
+                            <i data-lucide="users"></i>
+                            Start a Project
+                            <i data-lucide="arrow-right"></i>
+                        </a>
+                        <button class="btn btn-outline cta-btn">
+                            <i data-lucide="download"></i>
+                            Download CV
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <script src="home.js"></script>
+</body>
+</html>

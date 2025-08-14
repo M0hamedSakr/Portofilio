@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Mohamed Mahmoud Sakr</title>
+    <link rel="stylesheet" href="proj.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <div class="nav-content">
+                <a href="home.html" class="logo">
+                    <div class="logo-icon">MS</div>
+                    <span class="logo-text">Mohamed Sakr</span>
+                </a>
+                <div class="nav-desktop">
+                    <a href="home.html" class="nav-link">Home</a>
+                    <a href="about.html" class="nav-link">About</a>
+                    <a href="proj.html" class="nav-link active">Projects</a>
+                    <a href="sk.html" class="nav-link">Skills</a>
+                    <a href="con.html" class="nav-link">Contact</a>
+                </div>
+                <div class="nav-actions">
+                    <div class="contact-icons">
+                        <a href="https://www.linkedin.com/in/mohamed-sakr-15b674279" target="_blank" class="contact-icon">
+                            <i data-lucide="linkedin"></i>
+                        </a>
+                        <a href="tel:01009252592" class="contact-icon">
+                            <i data-lucide="phone"></i>
+                        </a>
+                    </div>
+                    <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
+                        <i data-lucide="menu" class="menu-icon"></i>
+                        <i data-lucide="x" class="close-icon hidden"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="mobile-nav hidden" id="mobileNav">
+                <div class="mobile-nav-content">
+                    <a href="home.html" class="mobile-nav-link">Home</a>
+                    <a href="about.html" class="mobile-nav-link">About</a>
+                    <a href="proj.html" class="mobile-nav-link active">Projects</a>
+                    <a href="sk.html" class="mobile-nav-link">Skills</a>
+                    <a href="con.html" class="mobile-nav-link">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-icon">
+                        <i data-lucide="lightbulb"></i>
+                    </div>
+                    <h1 class="hero-title">My Projects</h1>
+                    <p class="hero-description">
+                        Innovative solutions combining cutting-edge technology with real-world applications. 
+                        Each project demonstrates my passion for solving complex problems through creative engineering.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats Section -->
+        <section class="stats">
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <i data-lucide="target" class="stat-icon"></i>
+                        <h3 class="stat-number">6+</h3>
+                        <p class="stat-label">Projects Completed</p>
+                    </div>
+                    <div class="stat-card">
+                        <i data-lucide="code" class="stat-icon"></i>
+                        <h3 class="stat-number">15+</h3>
+                        <p class="stat-label">Technologies Used</p>
+                    </div>
+                    <div class="stat-card">
+                        <i data-lucide="lightbulb" class="stat-icon"></i>
+                        <h3 class="stat-number">3</h3>
+                        <p class="stat-label">Categories Covered</p>
+                    </div>
+                    <div class="stat-card">
+                        <i data-lucide="zap" class="stat-icon"></i>
+                        <h3 class="stat-number">100%</h3>
+                        <p class="stat-label">Innovation Focus</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Grid -->
+        <section class="projects">
+            <div class="container">
+                <div class="projects-grid">
+                    <!-- Cleaner Robot -->
+                    <div class="project-card" data-category="robotics">
+                        <div class="project-header">
+                            <div class="project-icon robotics">
+                                <i data-lucide="bot"></i>
+                            </div>
+                            <div class="project-badges">
+                                <span class="status-badge completed">Completed</span>
+                                <span class="complexity-badge advanced">Advanced</span>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Cleaner Robot</h3>
+                        <p class="project-description">
+                            An autonomous cleaning robot with advanced navigation, obstacle detection, and smart path planning. 
+                            Features real-time mapping, voice control, and mobile app integration.
+                        </p>
+                        <div class="project-features">
+                            <div class="feature-item">
+                                <i data-lucide="check-circle"></i>
+                                <span>Autonomous navigation and mapping</span>
+                            </div>
+                            <div class="feature-item">
+                                <i data-lucide="check-circle"></i>
+                                <span>Obstacle detection and avoidance</span>
+                            </div>
+                            <div class="feature-item">
+                                <i data-lucide="check-circle"></i>
+                                <span>Smart cleaning patterns</span>
+                            </div>
+                            <div class="feature-item">
+                                <i data-lucide="check-circle"></i>
+                                <span>Remote control via mobile app</span>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">Arduino</span>
+                            <span class="tech-tag">AI/ML</span>
+                            <span class="tech-tag">IoT</span>
+                            <span class="tech-tag">Computer Vision</span>
+                            <span class="tech-tag">Mobile App</span>
+                        </div>
+                        <div class="project-actions">
+                            <button class="btn btn-primary">
+                                <i data-lucide="external-link"></i>
+                                View Details
+                            </button>
+                            <button class="btn btn-outline">
+                                <i data-lucide="github"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- QR Code Generator -->
+                    <div class="project-card" data-category="web">
+                        <div class="project-header">
+                            <div class="project-icon web">
+                                <i data-lucide="qr-code"></i>
+                            </div>
+                            <div class="project-badges">
+                                <span class="status-badge completed">Completed</span>
+                                <span class="complexity-badge intermediate">Intermediate</span>
+                            </div>
+                        </div>
+                        <h3 class="project-title">QR Code Generator</h3>
+                        <p class="project-description">
+                            A comprehensive QR code generation and management system with analytics, batch processing, 
+                            and dynamic content updates. Supports multiple formats and customization options.
+                        </p>
+                        <div class="project-features">
+                            <div class="feature-item">
+                                <i data-lucide="check-circle"></i>
+                                <span>Dynamic QR code generation</span>
+                            </div>
+                            <div class="feature-item">
+                                <i data-lucide="check-circle"></i>
+                                <span>Batch processing capabilities</span>
+                            </div>
+                            <div class="feature-item">
+                                <i data-lucide="check-circle"></i>
+                                <span>Analytics and tracking</span>
+                            </div>
+                            <div class="feature-item">
+                                <i data-lucide="check-circle"></i>
+                                <span>Custom design options</span>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">API</span>
+                            <span class="tech-tag">Database</span>
+                        </div>
+                        <div class="project-actions">
+                            <button class="btn btn-primary">
+                                <i data-lucide="external-link"></i>
+                                View Details
+                            </button>
+                            <button class="btn btn-outline">
+                                <i data-lucide="github"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Mobile Car -->
+                    <div class="project-card" data-category="iot">
+                        <div class="project-header">
+                            <div class="project-icon iot">
+                                <i data-lucide="car"></i>
+                            </div>
+                            <div class="project-badges">
+                                <span class="status-badge completed">Completed</span>
+                                <span class="complexity-badge advanced">Advanced</span>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Mobile Car</h3>
+                        <p class="project-description">
+                            A remote-controlled vehicle with real-time video streaming, sensor monitoring, 
+                            and autonomous driving capabilities. Built with IoT integration and mobile control interface.
+                        </p>
+                        <div class="project-features">
+                            <div class="feature-item">
+                                <i data-lucide="check-circle"></i>
+                                <span>Remote wireless control</span>
+                            </div>
+                            <div class="feature-item">
+                                <i data-lucide="check-circle"></i>
+                                <span>Real-time video streaming</span>
+                            </div>
+                            <div class="feature-item">
+                                <i data-lucide="check-circle"></i>
+                                <span>Sensor data monitoring</span>
+                            </div>
+                            <div class="feature-item">
+                                <i data-lucide="check-circle"></i>
+                                <span>Autonomous driving mode</span>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">Arduino</span>
+                            <span class="tech-tag">IoT</span>
+                            <span class="tech-tag">C++</span>
+                            <span class="tech-tag">Mobile App</span>
+                            <span class="tech-tag">Sensors</span>
+                            <span class="tech-tag">Wireless</span>
+                        </div>
+                        <div class="project-actions">
+                            <button class="btn btn-primary">
+                                <i data-lucide="external-link"></i>
+                                View Details
+                            </button>
+                            <button class="btn btn-outline">
+                                <i data-lucide="github"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Health Monitoring System -->
+                    <div class="project-card" data-category="healthcare">
+                        <div class="project-header">
+                            <div class="project-icon healthcare">
+                                <i data-lucide="heart"></i>
+                            </div>
+                            <div class="project-badges">
+                                <span class="status-badge progress">In Development</span>
+                                <span class="complexity-badge expert">Expert</span>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Health Monitoring System</h3>
+                        <p class="project-description">
+                            An IoT-based health monitoring platform that tracks vital signs, provides real-time alerts, 
+                            and generates comprehensive health reports with AI-powered insights.
+                        </p>
+                        <div class="project-features">
+                            <div class="feature-item">
+                                <i data-lucide="check-circle"></i>
+                                <span>Real-time vital sign monitoring</span>
+                            </div>
+                            <div class="feature-item">
+                                <i data-lucide="check-circle"></i>
+                                <span>AI-powered health insights</span>
+                            </div>
+                            <div class="feature-item">
+                                <i data-lucide="clock"></i>
+                                <span>Emergency alert system</span>
+                            </div>
+                            <div class="feature-item">
+                                <i data-lucide="clock"></i>
+                                <span>Historical data analysis</span>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">IoT</span>
+                            <span class="tech-tag">AI/ML</span>
+                            <span class="tech-tag">Data Analysis</span>
+                            <span class="tech-tag">Mobile App</span>
+                            <span class="tech-tag">Sensors</span>
+                            <span class="tech-tag">Cloud</span>
+                        </div>
+                        <div class="project-actions">
+                            <button class="btn btn-primary">
+                                <i data-lucide="external-link"></i>
+                                View Details
+                            </button>
+                            <button class="btn btn-outline">
+                                <i data-lucide="github"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- TIAGO Assistant -->
+                    <div class="project-card" data-category="ai">
+                        <div class="project-header">
+                            <div class="project-icon ai">
+                                <i data-lucide="users"></i>
+                            </div>
+                            <div class="project-badges">
+                                <span class="status-badge progress">In Development</span>
+                                <span class="complexity-badge expert">Expert</span>
+                            </div>
+                        </div>
+                        <h3 class="project-title">TIAGO Assistant</h3>
+                        <p class="project-description">
+                            An intelligent virtual assistant powered by AI for task automation, voice interaction, 
+                            and smart home integration with natural language processing capabilities.
+                        </p>
+                        <div class="project-features">
+                            <div class="feature-item">
+                                <i data-lucide="check-circle"></i>
+                                <span>Natural language processing</span>
+                            </div>
+                            <div class="feature-item">
+                                <i data-lucide="check-circle"></i>
+                                <span>Voice command recognition</span>
+                            </div>
+                            <div class="feature-item">
+                                <i data-lucide="clock"></i>
+                                <span>Smart home integration</span>
+                            </div>
+                            <div class="feature-item">
+                                <i data-lucide="clock"></i>
+                                <span>Task automation</span>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">AI/ML</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">NLP</span>
+                            <span class="tech-tag">Voice Recognition</span>
+                            <span class="tech-tag">IoT</span>
+                            <span class="tech-tag">Cloud</span>
+                        </div>
+                        <div class="project-actions">
+                            <button class="btn btn-primary">
+                                <i data-lucide="external-link"></i>
+                                View Details
+                            </button>
+                            <button class="btn btn-outline">
+                                <i data-lucide="github"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Smart Wheelchair -->
+                    <div class="project-card" data-category="assistive">
+                        <div class="project-header">
+                            <div class="project-icon assistive">
+                                <i data-lucide="navigation"></i>
+                            </div>
+                            <div class="project-badges">
+                                <span class="status-badge progress">In Development</span>
+                                <span class="complexity-badge advanced">Advanced</span>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Smart Wheelchair</h3>
+                        <p class="project-description">
+                            An intelligent wheelchair system with autonomous navigation, health monitoring, 
+                            and safety features designed to enhance mobility and independence.
+                        </p>
+                        <div class="project-features">
+                            <div class="feature-item">
+                                <i data-lucide="check-circle"></i>
+                                <span>Autonomous navigation</span>
+                            </div>
+                            <div class="feature-item">
+                                <i data-lucide="check-circle"></i>
+                                <span>Obstacle detection</span>
+                            </div>
+                            <div class="feature-item">
+                                <i data-lucide="clock"></i>
+                                <span>Health monitoring integration</span>
+                            </div>
+                            <div class="feature-item">
+                                <i data-lucide="clock"></i>
+                                <span>Emergency response system</span>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">Arduino</span>
+                            <span class="tech-tag">IoT</span>
+                            <span class="tech-tag">AI/ML</span>
+                            <span class="tech-tag">Sensors</span>
+                            <span class="tech-tag">Mobile App</span>
+                            <span class="tech-tag">GPS</span>
+                        </div>
+                        <div class="project-actions">
+                            <button class="btn btn-primary">
+                                <i data-lucide="external-link"></i>
+                                View Details
+                            </button>
+                            <button class="btn btn-outline">
+                                <i data-lucide="github"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta">
+            <div class="container">
+                <div class="cta-content">
+                    <h2 class="cta-title">Have a Project in Mind?</h2>
+                    <p class="cta-description">
+                        Let's collaborate to bring your innovative ideas to life with cutting-edge technology and creative solutions.
+                    </p>
+                    <div class="cta-buttons">
+                        <a href="con.html" class="btn btn-primary">
+                            Start a Project
+                            <i data-lucide="chevron-right"></i>
+                        </a>
+                        <a href="sk.html" class="btn btn-outline">
+                            View My Skills
+                            <i data-lucide="chevron-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <script src="proj.js"></script>
+</body>
+</html>

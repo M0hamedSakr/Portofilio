@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Mohamed Mahmoud Sakr</title>
+    <link rel="stylesheet" href="about.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <div class="nav-content">
+                <a href="home.html" class="logo">
+                    <div class="logo-icon">MS</div>
+                    <span class="logo-text">Mohamed Sakr</span>
+                </a>
+                <div class="nav-desktop">
+                    <a href="home.html" class="nav-link">Home</a>
+                    <a href="about.html" class="nav-link active">About</a>
+                    <a href="proj.html" class="nav-link">Projects</a>
+                    <a href="sk.html" class="nav-link">Skills</a>
+                    <a href="con.html" class="nav-link">Contact</a>
+                </div>
+                <div class="nav-actions">
+                    <div class="contact-icons">
+                        <a href="https://www.linkedin.com/in/mohamed-sakr-15b674279" target="_blank" class="contact-icon">
+                            <i data-lucide="linkedin"></i>
+                        </a>
+                        <a href="tel:01009252592" class="contact-icon">
+                            <i data-lucide="phone"></i>
+                        </a>
+                    </div>
+                    <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
+                        <i data-lucide="menu" class="menu-icon"></i>
+                        <i data-lucide="x" class="close-icon hidden"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="mobile-nav hidden" id="mobileNav">
+                <div class="mobile-nav-content">
+                    <a href="home.html" class="mobile-nav-link">Home</a>
+                    <a href="about.html" class="mobile-nav-link active">About</a>
+                    <a href="proj.html" class="mobile-nav-link">Projects</a>
+                    <a href="sk.html" class="mobile-nav-link">Skills</a>
+                    <a href="con.html" class="mobile-nav-link">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content animate-fade-in">
+                    <div class="hero-icon">
+                        <i data-lucide="graduation-cap"></i>
+                    </div>
+                    <h1 class="hero-title">About Mohamed Sakr</h1>
+                    <p class="hero-description">
+                        A passionate software engineer and AI enthusiast with extensive experience in 
+                        algorithm development, IoT solutions, and cutting-edge technology implementation.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="education">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Education</h2>
+                    <p class="section-description">Academic foundation and continuous learning</p>
+                </div>
+                <div class="education-card animate-slide-up">
+                    <div class="education-icon">
+                        <i data-lucide="graduation-cap"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3 class="education-degree">Engineering Courses</h3>
+                        <p class="education-institution">Technical University</p>
+                        <p class="education-period">2020-2024</p>
+                        <p class="education-description">
+                            Comprehensive engineering education with focus on software and systems
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section class="certifications">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Certifications</h2>
+                    <p class="section-description">Professional development and specialized training</p>
+                </div>
+                <div class="certifications-grid">
+                    <div class="cert-card animate-scale-up" data-color="blue">
+                        <div class="cert-header">
+                            <div class="cert-icon">
+                                <i data-lucide="award"></i>
+                            </div>
+                            <span class="cert-category">Programming</span>
+                        </div>
+                        <h3 class="cert-name">ICPC C++ Problem Solving</h3>
+                        <p class="cert-issuer">International Collegiate Programming Contest</p>
+                        <p class="cert-year">2023</p>
+                        <p class="cert-description">Advanced algorithmic problem solving using C++</p>
+                    </div>
+
+                    <div class="cert-card animate-scale-up" data-color="green">
+                        <div class="cert-header">
+                            <div class="cert-icon">
+                                <i data-lucide="award"></i>
+                            </div>
+                            <span class="cert-category">Programming</span>
+                        </div>
+                        <h3 class="cert-name">Python Programming</h3>
+                        <p class="cert-issuer">Maharatech</p>
+                        <p class="cert-year">2023</p>
+                        <p class="cert-description">Comprehensive Python programming and development</p>
+                    </div>
+
+                    <div class="cert-card animate-scale-up" data-color="purple">
+                        <div class="cert-header">
+                            <div class="cert-icon">
+                                <i data-lucide="award"></i>
+                            </div>
+                            <span class="cert-category">AI/ML</span>
+                        </div>
+                        <h3 class="cert-name">AI Data Analysis</h3>
+                        <p class="cert-issuer">Sprint</p>
+                        <p class="cert-year">2023</p>
+                        <p class="cert-description">Machine learning and data analysis techniques</p>
+                    </div>
+
+                    <div class="cert-card animate-scale-up" data-color="orange">
+                        <div class="cert-header">
+                            <div class="cert-icon">
+                                <i data-lucide="award"></i>
+                            </div>
+                            <span class="cert-category">Design</span>
+                        </div>
+                        <h3 class="cert-name">Digital Fabrication</h3>
+                        <p class="cert-issuer">Creativa</p>
+                        <p class="cert-year">2023</p>
+                        <p class="cert-description">3D design and digital manufacturing processes</p>
+                    </div>
+
+                    <div class="cert-card animate-scale-up" data-color="cyan">
+                        <div class="cert-header">
+                            <div class="cert-icon">
+                                <i data-lucide="award"></i>
+                            </div>
+                            <span class="cert-category">Design</span>
+                        </div>
+                        <h3 class="cert-name">Autodesk Fusion</h3>
+                        <p class="cert-issuer">Alison</p>
+                        <p class="cert-year">2023</p>
+                        <p class="cert-description">CAD design and 3D modeling expertise</p>
+                    </div>
+
+                    <div class="cert-card animate-scale-up" data-color="pink">
+                        <div class="cert-header">
+                            <div class="cert-icon">
+                                <i data-lucide="award"></i>
+                            </div>
+                            <span class="cert-category">AI/ML</span>
+                        </div>
+                        <h3 class="cert-name">AI Certificate</h3>
+                        <p class="cert-issuer">Courssat</p>
+                        <p class="cert-year">2023</p>
+                        <p class="cert-description">Artificial intelligence fundamentals and applications</p>
+                    </div>
+
+                    <div class="cert-card animate-scale-up" data-color="red">
+                        <div class="cert-header">
+                            <div class="cert-icon">
+                                <i data-lucide="award"></i>
+                            </div>
+                            <span class="cert-category">IoT</span>
+                        </div>
+                        <h3 class="cert-name">IoT Course</h3>
+                        <p class="cert-issuer">Technology Institute</p>
+                        <p class="cert-year">2023</p>
+                        <p class="cert-description">Internet of Things development and implementation</p>
+                    </div>
+
+                    <div class="cert-card animate-scale-up" data-color="yellow">
+                        <div class="cert-header">
+                            <div class="cert-icon">
+                                <i data-lucide="award"></i>
+                            </div>
+                            <span class="cert-category">Management</span>
+                        </div>
+                        <h3 class="cert-name">Project Management Ideation</h3>
+                        <p class="cert-issuer">Professional Institute</p>
+                        <p class="cert-year">2023</p>
+                        <p class="cert-description">Project planning and management methodologies</p>
+                    </div>
+
+                    <div class="cert-card animate-scale-up" data-color="indigo">
+                        <div class="cert-header">
+                            <div class="cert-icon">
+                                <i data-lucide="award"></i>
+                            </div>
+                            <span class="cert-category">Programming</span>
+                        </div>
+                        <h3 class="cert-name">Python OOP</h3>
+                        <p class="cert-issuer">HackerRank</p>
+                        <p class="cert-year">2023</p>
+                        <p class="cert-description">Object-oriented programming principles in Python</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Expertise Areas -->
+        <section class="expertise">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Areas of Expertise</h2>
+                    <p class="section-description">Core competencies and technical skills</p>
+                </div>
+                <div class="expertise-grid">
+                    <div class="expertise-card animate-slide-up">
+                        <div class="expertise-icon">
+                            <i data-lucide="book-open"></i>
+                        </div>
+                        <h3 class="expertise-title">Programming & Development</h3>
+                        <div class="expertise-skills">
+                            <span class="skill-tag">C++</span>
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">C#</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">HTML5</span>
+                            <span class="skill-tag">CSS</span>
+                            <span class="skill-tag">SQL</span>
+                        </div>
+                    </div>
+
+                    <div class="expertise-card animate-slide-up">
+                        <div class="expertise-icon">
+                            <i data-lucide="target"></i>
+                        </div>
+                        <h3 class="expertise-title">Software & Tools</h3>
+                        <div class="expertise-skills">
+                            <span class="skill-tag">Microsoft Office</span>
+                            <span class="skill-tag">MATLAB</span>
+                            <span class="skill-tag">Autodesk Fusion</span>
+                            <span class="skill-tag">Windows Applications</span>
+                        </div>
+                    </div>
+
+                    <div class="expertise-card animate-slide-up">
+                        <div class="expertise-icon">
+                            <i data-lucide="lightbulb"></i>
+                        </div>
+                        <h3 class="expertise-title">Specialized Technologies</h3>
+                        <div class="expertise-skills">
+                            <span class="skill-tag">IoT</span>
+                            <span class="skill-tag">Arduino</span>
+                            <span class="skill-tag">CNC</span>
+                            <span class="skill-tag">Data Analysis</span>
+                            <span class="skill-tag">AI/ML</span>
+                            <span class="skill-tag">OOP</span>
+                        </div>
+                    </div>
+
+                    <div class="expertise-card animate-slide-up">
+                        <div class="expertise-icon">
+                            <i data-lucide="star"></i>
+                        </div>
+                        <h3 class="expertise-title">Security & Networking</h3>
+                        <div class="expertise-skills">
+                            <span class="skill-tag">Fortinet</span>
+                            <span class="skill-tag">Sophos</span>
+                            <span class="skill-tag">Access Points</span>
+                            <span class="skill-tag">DNS</span>
+                            <span class="skill-tag">DHCP</span>
+                            <span class="skill-tag">CCTV</span>
+                            <span class="skill-tag">Fingerprinting</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta">
+            <div class="container">
+                <div class="cta-content">
+                    <h2 class="cta-title">Ready to Collaborate?</h2>
+                    <p class="cta-description">
+                        Let's work together to bring innovative ideas to life with cutting-edge technology.
+                    </p>
+                    <div class="cta-buttons">
+                        <a href="proj.html" class="btn btn-primary">
+                            View My Projects
+                            <i data-lucide="chevron-right"></i>
+                        </a>
+                        <a href="con.html" class="btn btn-outline">
+                            Get In Touch
+                            <i data-lucide="external-link"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <script src="about.js"></script>
+</body>
+</html>
